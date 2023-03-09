@@ -30,8 +30,8 @@ void set_terminal(int width, int height) {
         printf("\e[42m ");
     }
 
-    // Move cursor to top-left
-    printf("\e[H");
+    // Move cursor to center
+    printf("\e[%d;%dH", height/2, width/2);
 }
 
 void reset_terminal() {
