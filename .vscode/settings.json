@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "setupwindow.h": "c",
+        "unistd.h": "c"
+    }
+}
