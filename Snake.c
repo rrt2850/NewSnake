@@ -17,7 +17,7 @@ int main() {
     width = size.ws_col;
     height = size.ws_row;
 
-    set_terminal();
+    set_terminal(width, height);
 
     // Set up signal handlers for SIGINT (Ctrl+C) and 'q'
     signal(SIGINT, handle_sigint);
